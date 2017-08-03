@@ -1,0 +1,22 @@
+vectorMapping:
+  0:
+    - node-0
+
+nodes:
+  - id: node-0
+    name: Test
+    nodeClass: ch.unibe.scg.curtys.bugreportquality.network.BinaryNode
+    probabilities:
+     - 1.0
+    connections:
+     - center
+
+  - id: center
+    name: bug report quality
+    nodeClass: ch.unibe.scg.curtys.bugreportquality.network.EffectNode
+
+scores:
+  - id: test
+    score: 1
+    threshold: 0.0
+
